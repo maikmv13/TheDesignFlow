@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Introduction to Design Thinking",
+      "content": "Design thinking is a problem-solving approach that...",
+      "author": "Admin User",
+      "date": "2023-10-18"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "plan": "premium",
+      "startDate": "2023-10-01",
+      "endDate": "2024-10-01"
+    }
+  ]
+}

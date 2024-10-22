@@ -1,0 +1,18 @@
+{
+  "name": "the-design-flow",
+  "version": "1.0.0",
+  "description": "The Design Flow - A weekly newsletter platform for designers",
+  "scripts": {
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd client && npm start",
+    "start:backend": "cd server && npm start",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd client && npm run dev",
+    "dev:backend": "cd server && npm run dev",
+    "install": "concurrently \"cd client && npm install\" \"cd server && npm install\"",
+    "db:seed": "node server/scripts/seedDatabase.js"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
