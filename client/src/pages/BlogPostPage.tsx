@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Clock, ArrowLeft, Star, Lock, Calendar, User, Tag, ThumbsUp, MessageCircle, Share2 } from 'lucide-react';
-import { useUser } from '../../client/src/contexts/UserContext';
+import { useUser } from "../contexts/UserContext";
 
 interface BlogPost {
   id: number;

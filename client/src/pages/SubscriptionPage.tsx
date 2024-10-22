@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { CheckCircle, X, Zap, BookOpen, Users, Rocket, Check } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { useUser } from '../../client/src/contexts/UserContext';
+import { useUser } from "../contexts/UserContext";
 
 const SubscriptionPage: React.FC = () => {
   const [selectedPlan, setSelectedPlan] = useState('free');
